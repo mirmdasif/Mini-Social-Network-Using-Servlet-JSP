@@ -1,0 +1,3 @@
+INSERT INTO facebook.post_comment (comment_id, post_id, user_id, body, comment_time) VALUES (1, 2, 1, 'Hi this is a comment', '2014-09-21 10:45:35.0');
+INSERT INTO facebook.post_comment (comment_id, post_id, user_id, body, comment_time) VALUES (2, 2, 1, 'Hi this is a comment', '2014-09-21 10:46:31.0');
+INSERT INTO facebook.post_comment (comment_id, post_id, user_id, body, comment_time) VALUES (3, 2, 1, 'Hi this is a comment', '2014-09-21 10:47:53.0');

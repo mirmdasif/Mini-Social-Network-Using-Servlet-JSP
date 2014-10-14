@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2408391226">
+    <data-source source="LOCAL" name="MySQL - facebook@localhost" uuid="0ddfa2e7-4d12-4bbc-82b9-14468e6ef503">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/facebook</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfc2dfcfdfd8dfcbdfda</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/lib/mysql-connector-java-5.1.9.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
