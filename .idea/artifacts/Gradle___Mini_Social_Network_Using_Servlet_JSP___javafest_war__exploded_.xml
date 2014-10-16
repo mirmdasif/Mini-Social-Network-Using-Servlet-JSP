@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : Mini-Social-Network-Using-Servlet-JSP : javafest.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/Mini-Social-Network-Using-Servlet-JSP/exploded/javafest.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Mini-Social-Network-Using-Servlet-JSP/web/Web Gradle : javafest.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Mini-Social-Network-Using-Servlet-JSP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: jstl-1.2" />
+          <element id="library" level="project" name="Gradle: c3p0-0.9.2.1" />
+          <element id="library" level="project" name="Gradle: mchange-commons-java-0.2.3.4" />
+          <element id="library" level="project" name="Gradle: mysql-connector-java-5.1.16" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/Mini-Social-Network-Using-Servlet-JSP/exploded/javafest.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

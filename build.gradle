@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+repositories 
+{
+   mavenCentral()
+}
+
+dependencies 
+{
+    providedCompile 'org.apache.tomcat:tomcat-catalina:8.0.14'
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile 'javax.servlet:jstl:1.2'
+    compile 'com.mchange:c3p0:0.9.2.1'
+    runtime 'mysql:mysql-connector-java:5.1.16'
+}
+
+war {
+    archiveName "javafest.war"
+}
+ 
+
